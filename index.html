@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ntigra Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/ckeditor.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    
+    <header>
+        <div class="row">
+            <div class="header-common">
+                <div class="profile">
+                    <img src="images/img_avatar.png" alt="Avatar" class="avatar">
+                    <div class="name-det"> 
+                        <h2>John Mark Labdia</h2>
+                        <p>M, 19-02-1993 / 26Y 12M 6D</p>
+                    </div> 
+                </div>
+                <div class="profile-details">
+                    <h2>MRN 247</h2>
+                    <p>PVR: 6565632</p>
+                </div>
+                <div class="profile-details">
+                    <h2>Insurance</h2>
+                    <p>M25-03-2020 14.00</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section1">
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col-md-9 col-12">
+                <div class="form-section">
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Temp</label>
+                        <div class="temp">
+                            <input type="temperaure" class="form-control" id="temperaure" aria-describedby="temperaure"><span> &nbsp;C</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Pulse</label>
+                        <div class="temp">
+                            <input type="Pulse" class="form-control" id="Pulse" aria-describedby="Pulse"><span> &nbsp;/min</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">R.R</label>
+                        <div class="temp">
+                            <input type="rr" class="form-control" id="rr" aria-describedby="rr"><span> &nbsp;/min</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Systolic</label>
+                        <div class="temp">
+                            <input type="systolic" class="form-control" id="systolic" aria-describedby="systolic"><span> &nbsp;mmHg</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Diastolic</label>
+                        <div class="temp">
+                            <input type="Diastolic" class="form-control" id="Diastolic" aria-describedby="Diastolic"><span> &nbsp;mmHg</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">O2SAT</label>
+                        <div class="temp">
+                            <input type="O2SAT" class="form-control" id="O2SAT" aria-describedby="O2SAT"><span> &nbsp;%</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">A.G</label>
+                        <div class="temp">
+                            <input type="ag" class="form-control" id="ag" aria-describedby="ag"><span> &nbsp;cm</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Height</label>
+                        <div class="temp">
+                            <input type="height" class="form-control" id="height" aria-describedby="height"><span> &nbsp;cm</span>
+                        </div>
+                    </div>
+                    <div class="text-field-sec">
+                        <label for="exampleInputEmail1" class="form-label">Weight</label>
+                        <div class="temp">
+                            <input type="weight" class="form-control" id="weight" aria-describedby="weight"><span> &nbsp;kg</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="search-container">
+                    <form autocomplete="off" >
+                        <label for="exampleInputEmail1" class="form-label">Nationality</label>
+                        <div class="search autocomplete">
+                            <div class="search-inner">
+                                <i class="fa fa-search"></i>
+                                <input  type="text" class="form-control" id="country"  placeholder="Nationality" name="search">
+                            </div>
+                        </div>
+                      
+                    </form>
+                  </div>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start">
+          <div class="col-md-12 col-12">
+            <div class="">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Chief Complaints & History of Present Illness</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>  
+    <div class="section2">
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col-md-6 col-12">
+                    <div class="text-area">
+                       
+                        
+                        <div class="allergies">
+                            <h2>Allergies</h2>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                No
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                Not Known
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                No Changes
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="select-section">
+                            <div class="row">
+                                <div class="col-md-4" >
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Allergy Type</option>
+                                        <option value="1">Fud Allergy</option>
+                                        <option value="2">Dust Allergy</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4" >
+                                <form >
+                                    <div class="search-container">
+                                        <form autocomplete="off" action="/action_page.php">
+                                        
+                                            <div class="search autocomplete">
+                                                <div class="search-inner"><i class="fa fa-search"></i><input type="reaction" class="form-control" id="reaction" placeholder="Kind of Reaction"></div>
+                                                
+                                            </div>
+                                    </div> 
+                                </form>
+                                </div>
+                                <div class="col-md-4" >
+                                <input type="reaction" class="form-control" id="reaction" placeholder="Kind of Reaction">
+                                </div>
+                            
+                        </div>
+
+                        </div>
+                        
+                    
+                    
+                    
+                    
+                    </div>
+                    <div style="overflow-x:auto">
+                    <table style="width:100%">
+                        <tr>
+                          <th>Allergy Type</th>
+                          <th>Allergies</th> 
+                          <th>Kind of Reaction</th>
+                          <th>ICD(S)</th>
+                        </tr>
+                        <tr>
+                          <td>Food Allergy</td>
+                          <td>Shell Fish</td>
+                          <td>Itching</td>
+                          <td>Z91.013</td>
+                        </tr>
+                        <tr>
+                            <td>Dust Allergy</td>
+                            <td>Dust</td>
+                            <td>Sneezing</td>
+                            <td>J30.1</td>
+                          </tr>
+                      </table>
+                      </div>
+                </div>
+                
+                <div class="col-md-6 col-12">
+                    <div class="search-container icds">
+                        <form autocomplete="off" action="/action_page.php">
+                            <label for="exampleInputEmail1" class="form-label">ICDs</label>
+                            <div class="search ">
+                                <div class="search-inner"><i class="fa fa-search"></i><input  type="text" class="form-control" placeholder="ICDs" name="search"></div>
+                            </div>
+                          
+                        </form>
+                      </div>
+                      <div style="overflow-x:auto">
+                      <table style="width:100%; margin-top: 6px;">
+                        <tr>
+                          <th>ICD Code</th>
+                          <th>Description</th> 
+                          <th>Primary/Secondary</th>
+                          <th>Provisional/Final</th>
+                        </tr>
+                        <tr>
+                          <td>E55.9</td>
+                          <td>Cough</td>
+                          <td>Secondary</td>
+                          <td>Provisional</td>
+                        </tr>
+                        <tr>
+                            <td>R05</td>
+                            <td>Pain, Unspecified</td>
+                            <td>Secondary</td>
+                            <td>Final</td>
+                          </tr>
+                          <tr>
+                            <td>R52</td>
+                            <td>Headache</td>
+                            <td>Secondary</td>
+                            <td>Final</td>
+                          </tr>
+                          <tr>
+                            <td>R51</td>
+                            <td>Dust</td>
+                            <td>Secondary</td>
+                            <td>Provisional</td>
+                          </tr>
+                      </table>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <script>
+        initSample();  
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+            
+    var requestOptions = {
+    method: 'POST',
+    redirect: 'follow'
+    };
+
+    fetch("https://api.first.org/data/v1/countries", requestOptions)
+    response => response.text()
+    .then(response => {
+        
+       console.log(response,"response")
+        let allstations= response.country;
+   
+        for(var i = 0; i < allstations.length; i++) {
+                html += "<option value=" + key  + ">" +obj[key] + "</option>"
+            }
+            document.getElementById("country").append = html;
+    })
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
+    // var apiStations = "https://api.first.org/data/v1/countries";
+    
+//     function req1() {
+//     fetch(apiStations, {
+//     method: "get"
+//     })
+ 
+//   .then(data => {
+//    let allstations= data.country;
+   
+//     for(var i = 0; i < allstations.length; i++) {
+//       html += "<option value=" + key  + ">" +obj[key] + "</option>"
+//   }
+//     document.getElementById("country").append = html;
+//     })
+//     }
+    // req1();
+    
+
+    
+    </script>
+    
+  </body>
+</html>
