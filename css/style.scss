@@ -70,7 +70,7 @@ header{background-color: #604a8b;
     }
 }
 .section1{margin: 30px 0px;
-    .form-section{
+    .form-section{overflow: auto;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -137,13 +137,12 @@ header{background-color: #604a8b;
     border-color: #604a8b;
 }
 .form-control{border: 1px solid #e79b8e;}
+.ui-menu{border: 1px solid #000 !important; background-color: #fafafa;width: 100px; overflow: auto;
+    .ui-menu-item{color: #fff; background-color: #604a8b;padding: 10px;cursor: pointer;}
+}
+
 
 @media screen and (max-width: 480px) {
-    .section1 {
-        .form-section {
-            flex-wrap: wrap;
-        }
-    }
     header {height: auto;
         .header-common {
             justify-content: center;
